@@ -70,5 +70,18 @@ print( "\nMatrix e is \n", e ,"\nMatix f is\n", f)
 i = e * f
 print("\nMultiplication of matrix e and f is\n", i)
 
+# Matrix transpose
+j = np.array(range(9))
+j = j.reshape(3,3)
+print("\nBefore transpose\n", j)
+k = j.T
+print("\nAfter transpose\n", k)
+
+# Tensors
+l = np.ones((3,3,3,3,3,3,3,3,3,3))
+print("Tensors\n", l)
+print("\nShape\n", l.shape)
+# print("\nLen\n", l.len)
+print("\nSize\n", l.size)
 
 
